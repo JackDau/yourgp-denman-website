@@ -1,0 +1,674 @@
+lbody, p, div, section, article, h1, h2, h3, h4, h5, h6 {margin:0;padding:0;}
+
+/*** Colours
+Brown - #554741
+Green - #5A867D
+Dark Green - #082622
+*/
+.page {font-family: 'Lato', sans-serif;background-color: #456B63;}
+
+h1 {font-size: 38px;}
+
+h2 {font-size: 28px;}
+
+h3 {font-size: 25px;}
+
+h4 {font-size: 20px;}
+
+h5 {font-size: 15px;}
+
+p {margin-top: 0.75em;}
+
+a { color: inherit; /* blue colors for links too */ text-decoration: inherit; /* no underline */}
+
+.clearfix {overflow: auto;zoom: 1;clear: both;}
+.button {padding: 1.25em 0em;border: 2px solid #5A867D;color: #5A867D;background-color: white;}
+.page-heading {font-size: 42px;font-weight: 400;margin-bottom: 0.5em;}
+.button:hover {background-color: #5A867D;color: white;}
+.content-wrapper {margin-top: -200px;}
+.content {position: static;
+    width: 1100px;
+    background-color: #fff;
+    margin: 50px auto;
+    padding-left: 50px;
+    margin-bottom: 1em;
+    margin-top: 50px;
+    padding-right: 90px;}
+.banner-box {background-color: red;}
+ .home .first-2 {
+    background-color: rgba(217,214,209,.9);
+    left: 190px;
+    width: 320px;
+    padding: 0;
+    border-radius: 5px;
+ }
+ .home .first-2 img {
+    display: inline-block;
+    padding-top: 15px;
+ }
+ .home .first-2 h6 {
+    font-size: 16px;
+    font-weight: 700;
+    background-image: url('../images/Button.png');
+    height: 41px;
+    width: 226px;
+    padding: 20px 20px 20px 0;
+    display: inline-block;
+    text-align: center;
+    vertical-align: top;
+ }
+ .content-2 {
+    position: absolute;
+    width: 10px;
+    background-color: #fff;
+    margin: 0 auto;
+    padding: 10px;
+    margin-bottom: 1em;
+ }
+
+
+/**
+
+* Navigation 
+
+**/
+
+.desktop {display: block;}
+.mobile {display: none;}
+.header-top {width: 98%;padding: 1.5em 1%;background-color: white;}
+.header-top div {width: 760px;margin: 0 auto;}
+.header-top div img:first-child {display: inline-block;	float: left;width: 250px;}
+.header-top div img:nth-child(2) {display: inline-block;float: right;vertical-align: bottom;padding-top: 0.4em;cursor: pointer;	}
+.header-top div h2 {margin-right: 20px;	margin-top: 10px;display: inline-block;	float: right;}
+.header-bottom {width: 100%;background-color: rgba(255, 255, 255, 0.8);}
+.header-bottom nav {margin: 0 auto;width: 768px;}
+.header-bottom nav ul {	float: right;padding: 0.3em 0 0.3em 0;}
+.header-bottom nav ul li {display: inline-block;margin-right: 20px;	color: black;}
+.header-bottom nav ul li:nth-child(6) {margin-right: 0;}
+.header-bottom nav ul li h5 {font-weight: 400;}
+.mobile.header-bottom nav ul {float: none;width: 320px;	margin: 0 auto;padding: 1em 0 1em 0;text-align: center;}
+.mobile.header-bottom nav ul li {}
+.mobile.header-bottom nav ul li h5 {}
+.mobile.header-bottom {	}
+.mobile.dropdown ul {background-color: white;list-style-type: none;padding: 0 1em 0em 1em;margin: 0;}
+.mobile.dropdown li {display: inline-block;	width: 95%;padding: 1.25em 2.5%;border-bottom: 1px solid #5A867D;}
+.mobile.dropdown li:nth-child(7) {border: none;	}
+
+
+/**
+
+* Backgrounds
+
+**/
+
+.layer-1-background {position: absolute;top: 0;width: 100%;height: 590px;background-image: url('../images/dark-wood.png');background-color: #554741;z-index: -3;}
+
+.home {background-color: #5A867D;}
+
+/**
+
+* BannerImage
+
+**/
+
+.banner-image {top: 0;width: 1500px;margin: 0 auto;	height: 670px;z-index: -2;}
+.banner-image div {width: 100%;height: 100%;background-image: url('../images/denman-home.jpg');background-repeat: no-repeat;background-size: cover;}
+.home .first {background-color: rgba(217,214,209,0.9);margin-left: 890px;width: 320px;padding: 0;border-radius: 5px;}
+.home .first a {margin-top: 1em;display: block;color: #000000;}
+.home .first h6 {font-size: 16px;font-weight: 700;background-image: url('../images/Button.png');height: 41px;width: 226px;padding: 20px 20px 20px 0px;display: inline-block;text-align: center;
+	vertical-align: top;}
+.home .first img {display: inline-block;padding-top: 15px;}
+.home .second {width: 860px;padding: 70px;}
+.home .second h1 {margin-bottom: 0.5em;}
+.home .second h3 {margin-bottom: 0.7em;}
+.home .third {width: 1000px;padding: 0em;display: flex;}
+.home .third div {background-color: white;width: 30%;padding: 0em 1%;display: inline-block;text-align: center;align-self: center;}
+.home .third img {display: inline-block;width: 70%;height: 500px;}
+.home .third .cms-content h4 {font-weight: 400;}
+.home .third .cms-content h4:nth-child(3), .home .third .cms-content h4:first-child {margin-top: 0.4em;}
+.home .fourth {position: relative;padding: 0;width: 1000px;height: 300px;}
+.home .fourth #google-maps {position: relative;	height: 300px;	width: 70%;	display: inline-block;	border: none;}
+.home .fourth div:nth-child(2) {width: 26%;	display: inline-block;	vertical-align: top;padding: 3em 2%;text-align: center;}
+.home .fourth h4 {margin-top: 0.75em;}
+.home .fourth p {margin: 0;}
+
+/**
+
+* DOCTORS
+
+**/
+
+.page-id-16 p {	margin-top: 0.2em;}
+.page-id-16 #staff-info p {	margin-top: 0.5em;}
+.page-id-16 section, .page-id-24 section, .page-id-302 section {background-color: white;padding: 100px;width: 1000px;	margin: 100px auto;}
+.page-id-16 #staff-info {width: 1000px;height: auto;margin: 50px auto 0;overflow: hidden; position: relative; -webkit-box-shadow: 7px 8px 5px 0px rgba(0,0,0,0.12);-moz-box-shadow: 7px 8px 5px 0px rgba(0,0,0,0.12);
+	box-shadow: 7px 8px 5px 0px rgba(0,0,0,0.12);padding-bottom: 40px;}
+.page-id-16 #staff-info h4 {margin-top: 1em;}
+.page-id-16 #staff-info h2 {color: #5A867D;}
+.page-id-16 #staff-info h5:nth-child(2) {margin-top: 0.2em;	font-weight: 700;font-size: 16px;}
+.page-id-16 #staff-info img {width: 350px;margin-top: 50px;margin-right: 50px;float: right;}
+.page-id-16 #staff-info .staff-content {float: right;width: 50%;padding: 0.5em 2em 0.5em 0.5em;margin-top: 50px;}
+.page-id-16 #staff-info span {font-weight: bold;}
+.page-id-16 .staff-grid {width: 700px;display: inline-block;vertical-align: top;font-size: 0;}
+.page-id-16 .staff-member {cursor: pointer;display: inline-block;width: 26%;padding: 2%;margin-right: 3%;margin-top: 50px;font-size: 14px;-webkit-box-shadow: 7px 8px 5px 0px rgba(0,0,0,0.12);
+		-moz-box-shadow: 7px 8px 5px 0px rgba(0,0,0,0.12);box-shadow: 7px 8px 5px 0px rgba(0,0,0,0.12);	}
+.page-id-16 .staff-member img {	width: 100%;}
+.page-id-16 .staff-member p, .page-id-16 .staff-member h4 {padding: 0 2%;}
+.page-id-16 .staff-member p:nth-child(2) {margin-top: 1em;font-weight: bold;font-size: 14px;}
+.page-id-16 .staff-member p:nth-child(3) {color: #80B7A2;margin: 0.5em 0;font-size: 12px;}
+.page-id-16 .sidebar {margin-top: 50px;}
+
+/**
+
+* SERVICES
+
+**/
+
+.page-id-24 .content, .page-id-18 .content, .page-id-302 .content {margin-top: 100px;}
+.page-id-24 .content {margin-bottom: 20px;}
+.page-id-24 .content:nth-child(2) {margin-top: 20px;}
+.page-id-24 .page-heading, .page-id-18 .page-heading, .page-id-302 .page-heading  {margin-bottom: 0.5em;}
+.page-id-24 .sub-heading, .page-id-18 .sub-heading, .page-id-302 .sub-heading {margin-bottom: 1em;}
+.page-id-24 .services-content, .page-id-18 .services-content, .page-id-302 .services-content {width: 60%;display: inline-block;}
+.page-id-24 .services-row, .page-id-18 .services-row, .page-id-302 .services-row, .page-id-302 .services-row {border-bottom: 1px solid #80B7A2;	padding: 0.8em 0.5em 0.5em 0.5em;cursor: pointer;}
+.page-id-24 .services-row p, .page-id-18 .services-row p, .page-id-302 .services-row p, .page-id-302 .services-row p {clear: both;}
+.page-id-24 .services-row span p:first-child, .page-id-18 .services-row span p:first-child, .page-id-302 .services-row span p:first-child, .page-id-302 .services-row span p:first-child {padding-top: 1em;}
+.page-id-24 .services-row span p:last-child, .page-id-18 .services-row span p:last-child, .page-id-302 .services-row span p:last-child, .page-id-302 .services-row span p:last-child {padding-bottom: 1em;}
+.page-id-24 .services-row h4, .page-id-18 .services-row h4, .page-id-302 .services-row h4, .page-id-302 .services-row h4 {color: #5A867D;	float: left;display: block;font-size: 20px;	width: 85%;}
+.page-id-24 .services-row img, .page-id-18 .services-row img .page-id-302 .services-row img, .page-id-302 .services-row img {float: right;transition: -webkit-transform 0.5s, -ms-transform 0.5, transform 0.5s;}
+
+/**
+
+* CONTACT
+
+**/
+
+.page-id-14 section {width: 700px;margin: 50px auto;}
+.page-id-14 .top-wrapper {width: 500px;	background-color: #082622;color: white;	padding: 75px 100px 100px 100px;}
+.page-id-14 .top-box {vertical-align: top;display: inline-block;width: 39%;padding: 5%;}
+.page-id-14 section h3 {font-size: 20px;margin-bottom: 0.5em;margin-top: 0.6em;}
+.page-id-14 .top-box h3 {padding-bottom: 0.5em;	margin: 1.5em 0 0.5em 0;border-bottom: 2px solid white;}
+.page-id-14 #google-maps-contact {height: 350px;width: 65%;	display: inline-block;border: none;}
+.page-id-14 .contact-content {width: 24%;padding: 35px 5%;	background-color: white;height: 280px;display: inline-block;vertical-align: top;text-align: center;}
+.page-id-14 .contact-content p {margin: 0;}
+.page-id-14 iframe ,.page-id-8 iframe {margin-top: 0;}
+.page-id-14 .framebox {background:#fff;height:350px;}
+
+/**
+
+* PATIENT
+
+**/
+
+.online h3 {text-align: center;}
+.online img {margin-top: 10px;}
+.page-id-22 .content {width: 850px;	padding: 60px 250px 60px 100px;}
+.page-id-22 .content .patient-subcontent {width: 70%;float: left;}
+.page-id-22 .content p {line-height: 1.25em;}
+.page-id-22 .patient-firstrow {margin-top: 4em;padding-right: 100px;width: 1000px;background-color:;}
+.page-id-22 .patient-firstrow .patient-subcontent {	display: inline-block;}
+.page-id-22 .content ul {margin-left: 20px;list-style-type: none;}
+.page-id-22 .content li {margin-top: 0.5em;}
+.page-id-22 .patient-firstrow h1 {font-weight: 400;font-size: 42px;margin-bottom: 0.5em;}
+.page-id-22 .content:first-child p {line-height: 1.75em;}
+.page-id-22 .content .patient-subcontent h5 {color: #456B63;font-weight: 700;font-size: 17px;margin-top: 0.5em;}
+.page-id-22 .content .hours-text {line-height: 1em;	font-weight: 700;}
+.page-id-22 .content .appointment-headings {font-size: 20px;margin: 20px 0;}
+.page-id-22 .content .appointment-headings span {font-style: italic;font-weight: 400;font-size: 18px;}
+.page-id-22 .content .appointment-text-top {border-top: 2px solid #80B7A2;}
+.page-id-22 .content .appointment-text {padding: 10px;border-bottom: 2px solid #80B7A2;}
+
+
+.appointment-text span:nth-child(2) {float: right;margin-right: 1em;}
+
+.form-button {margin-top: 30px;background-color: #80B7A2;border-radius: 7px;width: 250px;-webkit-box-shadow: -1px 11px 8px -9px rgba(0,0,0,0.3);-moz-box-shadow: -1px 11px 8px -9px rgba(0,0,0,0.3);
+box-shadow: -1px 11px 8px -9px rgba(0,0,0,0.3);}
+
+.form-button h3 {font-size: 17px;width: 65%;float: right;padding: 7.5% 5%;background-color: #F5F5F5;border-bottom-right-radius: 6px;border-top-right-radius: 6px;}
+.form-button img {padding-top: 10px;display: inline-block;margin-left: 13px;}
+
+/**
+
+* FORM
+
+**/
+
+.wpcf7-list-item {display: block;}
+.all-toggle, .doctor-toggle, .prob-toggle, .med-toggle, .smoke-toggle, .pap-toggle, .inner-pap-toggle, .alcohol-toggle {display: none;}
+
+.page-id-163 p {margin-top: 0;}
+.page-id-163 {background-color: #5A867D;}
+.page-id-163 .left-column {width: 20%;display: inline-block;margin-right: 5%;}
+.page-id-163 .left-column-radio {width: 8%;padding-left: 1em;margin-top: 0.25em;display: inline-block;margin-right: 2.5%;}
+.page-id-163 .left-column-large {width: 30%;display: inline-block;margin-right: 5%;}
+.page-id-163 .left-column-xlarge {width: 45%;display: inline-block;	margin-right: 5%;}
+
+
+.wpcf7-form-control-wrap.Last,
+.wpcf7-form-control-wrap.City,
+.wpcf7-form-control-wrap.HomePhone,
+.wpcf7-form-control-wrap.MobilePhone,
+.wpcf7-form-control-wrap.MedicareExpiry,
+.wpcf7-form-control-wrap.NextOfKin,
+.wpcf7-form-control-wrap.NextOfKinAddress,
+.wpcf7-form-control-wrap.NextOfKinSuburb,
+.wpcf7-form-control-wrap.NextOfKinPostcode,
+.wpcf7-form-control-wrap.NextOfKinRelationship,
+.wpcf7-form-control-wrap.EContact,
+.wpcf7-form-control-wrap.EContactAddress,
+.wpcf7-form-control-wrap.EContactSuburb,
+.wpcf7-form-control-wrap.EContactPostcode,
+.wpcf7-form-control-wrap.EContactRelationship,
+.wpcf7-form-control-wrap.title,
+.wpcf7-form-control-wrap.firstname,
+.wpcf7-form-control-wrap.middlename,
+.wpcf7-form-control-wrap.LastName,
+.wpcf7-form-control-wrap.email,
+.wpcf7-form-control-wrap.ethdescription,
+.wpcf7-form-control-wrap.Occupation{width: 75%;	display: inline-block;	margin-bottom: 1em;}
+
+.wpcf7-form-control-wrap.WorkPhone {width: 75%;display: inline-block;}
+
+.wpcf7-form-control-wrap.address,
+.wpcf7-form-control-wrap.streetAddress,
+.wpcf7-form-control-wrap.MedicareNumber,
+.wpcf7-form-control-wrap.NextOfKinNumber,
+.wpcf7-form-control-wrap.EContactNumber, 
+.wpcf7-form-control-wrap.DOB,
+.wpcf7-form-control-wrap.MaritalStatus {width: 65%;display: inline-block;margin-bottom: 1em;}
+
+.wpcf7-form-control-wrap.Postal{width: 65%;display: inline-block;}
+
+.wpcf7-form-control-wrap.ReferenceNumber,.wpcf7-form-control-wrap.HeardAboutUs {width: 50%;display: inline-block;margin-bottom: 1em;}
+
+.page-id-163 .mbottom {margin-bottom: 1em;}
+.page-id-163 .right-column {width: 100%;}
+.page-id-163 form .full-width {width: 100%;}
+.page-id-163 form .p-margin-both {margin-top: 5px;margin-bottom: 10px;}
+.page-id-163 form .p-margin-bot {margin-bottom: 10px;}
+.page-id-163 form {background-color: white;padding: 4em;width: 500px;margin: 5em auto;}
+.page-id-163 form h5 {font-size: 17px;margin: 0.75em 0;font-weight: bold;color: #5A867D;}
+.page-id-163 form .half-left {width: 45%;margin-right: 5%;}
+.page-id-163 form .text-half-left {margin-top: 5px;width: 51%;display: inline-block;}
+.page-id-163 form .text-half-right {margin-top: 5px;}
+.page-id-163 form .half-right {width: 45%;}
+
+
+form .nametitle {width: 10%;margin-right: 4%;}
+.page-id-163 form .namefirst, form .gp-first {width: 30%;margin-right: 4%;}
+form .pre-text {width: 15%;display: inline-block;}
+form .first-text, form .gp-first-text {width: 35%;display: inline-block;margin-top: 5px;}
+form .namelast, form .gp-last {width: 45%;}
+form .last-text, form .gp-last-text {margin-top: 5px;}
+form .knownas input {margin-top: 0.75em;}
+form .text-knownas {margin-top: 5px;}
+.page-id-163 form input[type=submit] {background-color: transparent;border: 1px solid #5A867D;padding: 7px 15px;color: #5A867D;cursor: pointer;font-size: 16px;}
+.page-id-163 form input[type=submit]:hover {background-color: #5A867D;color: white;}
+
+
+/**
+
+* SIDEBAR
+
+**/
+
+.catcher {float: right;	width: 250px;padding: 0 1em;}
+.sidebar {z-index: 10;float: right;	width: 250px;padding: 0 1em;}
+.sidebar div {border-radius: 7px;-webkit-box-shadow: -1px 11px 8px -9px rgba(0,0,0,0.3);-moz-box-shadow: -1px 11px 8px -9px rgba(0,0,0,0.3);box-shadow: -1px 11px 8px -9px rgba(0,0,0,0.3);}
+.sidebar-first {padding: 1em 1.5em;	background-color: #F5F5F5;text-align: center;}
+.sidebar-second	{background-color: #80B7A2;}
+.sidebar-third {background-color: #5A867D;}
+.sidebar-fourth {background-color: #456B63;}
+.sidebar-third h3, .sidebar-fourth h3 {padding: 1em 1em 1em 2em;}
+.sidebar-lower {width: 100%;margin-top: 10px;}
+.contact-button {margin-top: 30px;width: 250px;background-color: #80B7A2;border-radius: 7px;color: black;-webkit-box-shadow: -1px 11px 8px -9px rgba(0,0,0,0.3);-moz-box-shadow: -1px 11px 8px -9px rgba(0,0,0,0.3);
+box-shadow: -1px 11px 8px -9px rgba(0,0,0,0.3);}
+.sidebar-lower h3, .contact-button h5 {border-top-left-radius: 5px;border-bottom-left-radius: 5px;width: 55%;background-color: #F5F5F5;display: inline-block;}
+.sidebar-lower svg, .contact-button svg {width: 50px;height: 35px;display: inline-block;}
+.sidebar-third svg, .sidebar-fourth svg {vertical-align: middle;}
+.sidebar-lower svg line, .contact-button svg line  {stroke: black;stroke-width: 3;}
+.sidebar h3, .contact-button h5 {font-size: 18px;}
+.sidebar h4 {font-size: 15px;}
+.sidebar h5 {font-size: 13px;}
+.sidebar-first p {margin: 0;}
+
+.sidebar-first h4:nth-child(2), .sidebar div h5:nth-child(5), .sidebar div h5:nth-child(10) {margin-top: 12px;}
+.sidebar-first h4:nth-child(7) {margin-top: 17px;}
+.sidebar-second h3, .contact-button h5 {padding: 0.5em 1em 0.5em 2em;}
+
+
+
+@media (min-width: 1160px) {
+	.desktop-header-bottom nav {width: 1160px;margin: 0 auto;}
+}
+
+/**
+
+* FOOTER
+
+**/
+
+footer {margin-top: 4em;}
+.footer-1 {padding: 4em 0;background-color: #082622;}
+.footer-1 .content {background-color: transparent;color: white;	margin: 0px auto;padding: 0;width: 800px;}
+.footer-1 .content div {vertical-align: top;display: inline-block;width: 18%;}
+.footer-1 .content .footer-first img {margin-bottom: 0.8em;}
+.footer-1 .content div:nth-child(2) {margin-top: 3.15em;}
+.footer-1 .content div:nth-child(3), footer .content div:nth-child(4) {margin-top: 3em;}
+.footer-1 .content div p {margin: 0;}
+.footer-1 .content div h3 {margin-bottom: 0.5em;color: #456B63;font-size: 20px;}
+.footer-1 .content div h5 {padding-bottom: 0.5em;}
+.footer-1 .content div .sep {margin-top: 1em;}
+.footer-1 .last span {display: block;width: 45%;margin: 1em auto;}
+.footer-1 .last img:first-child {margin-right: 0.5em;}
+.footer-2 {background-color: #160904;padding: 1.25em;}
+.footer-2 p {text-align: center;color: #745E56;margin: 0;font-size: 12px;}
+
+@media (min-width: 1501px) and (max-width: 2000px) {
+    .home .first {
+        margin-left: 1110px;
+    }
+    .home .first-2 {
+    background-color: rgba(217,214,209,.9);
+    left: 310px;
+    width: 320px;
+    padding: 0;
+    border-radius: 5px;
+ }
+ .home .first-2 img {
+    display: inline-block;
+    padding-top: 15px;
+ }
+ .home .first-2 h6 {
+    font-size: 16px;
+    font-weight: 700;
+    background-image: url('../images/Button.png');
+    height: 41px;
+    width: 226px;
+    padding: 20px 20px 20px 0;
+    display: inline-block;
+    text-align: center;
+    vertical-align: top;
+ }
+ .content-2 {
+    position: absolute;
+    width: 10px;
+    background-color: #fff;
+    margin: 0 auto;
+    padding: 100px;
+    margin-bottom: 1em;
+ }
+}
+
+@media (min-width: 1201px) and (max-width: 1500px) {
+	.home .first { margin-left: 820px;margin-top:120px;}
+	.banner-image {	width: 100%;height: 150px;}
+	.home .first-2 {
+    background-color: rgba(217,214,209,.9);
+    left: 240px;
+    width: 320px;
+    padding: 0;
+    border-radius: 5px;
+ }
+ .home .first-2 img {
+    display: inline-block;
+    padding-top: 15px;
+ }
+ .home .first-2 h6 {
+    font-size: 16px;
+    font-weight: 700;
+    background-image: url('../images/Button.png');
+    height: 41px;
+    width: 226px;
+    padding: 20px 20px 20px 0;
+    display: inline-block;
+    text-align: center;
+    vertical-align: top;
+ }
+ .content-2 {
+    position: absolute;
+    width: 10px;
+    background-color: #fff;
+    margin: 0 auto;
+    padding: 100px;
+    margin-bottom: 1em;
+ }
+	
+}
+
+
+@media (min-width: 1200px) {
+ .home .first {margin-left:1135px;}
+ .desktop-header-top div {width: 1200px;}
+ .page-id-22 .content {	width: 800px;}
+ .page-id-22 .content.patient-firstrow {width: 950px;}
+ .page-id-14 section { width: 1100px;}
+ .page-id-14 .top-wrapper {  width: 900px;   padding: 100px;}
+}
+
+@media (min-width: 1025px) and (max-width: 1200px) {
+    .desktop-header-top div {width: 992px;}
+ .home .first {margin-left: 610px;}
+ .home .second {width: 700px;}
+ .home .third {width: 840px;}
+ .home .third img {height: 400px;}
+ .home .fourth {width: 840px;}
+ .banner-image {width: 100%;height: 150px;}
+ .page-id-16 #staff-info {width: 850px;}
+ .page-id-16 #staff-info img {width: 30%;}
+ .page-id-16 section, .page-id-24 section, .page-id-302 section {	width: 850px;padding: 50px;}
+ .page-id-16 .staff-grid {	width: 100%;}
+ .page-id-24 .content, .page-id-18 .content, .page-id-302 .content {width: 792px;padding: 75px;}
+ .page-id-24 .services-content, .page-id-18 .services-content, .page-id-302 .services-content {width: 60%;}
+ .sidebar {	display: none;}
+ .page-id-22 .content {width: 650px;padding-left: 100px;padding-right: 100px;	}
+ .page-id-22 .content .patient-subcontent {	width: 100%;}
+    .home .first-2 {
+    background-color: rgba(217,214,209,.9);
+    left: 170px;
+    width: 320px;
+    padding: 0;
+    border-radius: 5px;
+ }
+ .home .first-2 img {
+    display: inline-block;
+    padding-top: 15px;
+ }
+ .home .first-2 h6 {
+    font-size: 16px;
+    font-weight: 700;
+    background-image: url('../images/Button.png');
+    height: 41px;
+    width: 226px;
+    padding: 20px 20px 20px 0;
+    display: inline-block;
+    text-align: center;
+    vertical-align: top;
+ }
+ .content-2 {
+    position: absolute;
+    width: 10px;
+    background-color: #fff;
+    margin: 0 auto;
+    padding: 50px;
+    margin-bottom: 1em;
+ }
+}
+
+@media (min-width: 991px) and (max-width: 1024px) {	
+ .desktop-header-top div {width: 992px;}
+ .home .first {margin-left: 590px; margin-top:120px;}
+ .home .second {width: 700px;}
+ .home .third {width: 840px;}
+ .home .third img {height: 400px;}
+ .home .fourth {width: 840px;}
+ .banner-image {width: 100%;height: 150px;}
+ .page-id-16 #staff-info {width: 850px;}
+ .page-id-16 #staff-info img {width: 30%;}
+ .page-id-16 section, .page-id-24 section, .page-id-302 section {	width: 850px;padding: 50px;}
+ .page-id-16 .staff-grid {	width: 100%;}
+ .page-id-24 .content, .page-id-18 .content, .page-id-302 .content {width: 792px;padding: 75px;}
+ .page-id-24 .services-content, .page-id-18 .services-content, .page-id-302 .services-content {width: 60%;}
+ .sidebar {	display: none;}
+ .page-id-22 .content {width: 650px;padding-left: 100px;padding-right: 100px;	}
+ .page-id-22 .content .patient-subcontent {	width: 100%;}
+ .home .first-2 {
+    background-color: rgba(217,214,209,.9);
+    left: 80px;
+    width: 320px;
+    padding: 0;
+    border-radius: 5px;
+ }
+ .home .first-2 img {
+    display: inline-block;
+    padding-top: 15px; 
+ }
+ .home .first-2 h6 {
+    font-size: 16px;
+    font-weight: 700;
+    background-image: url('../images/Button.png');
+    height: 41px;
+    width: 226px;
+    padding: 20px 20px 20px 0;
+    display: inline-block;
+    text-align: center;
+    vertical-align: top;
+ }
+ .content-2 {
+    position: absolute;
+    width: 10px;
+    background-color: #fff;
+    margin: 0 auto;
+    padding: 50px;
+    margin-bottom: 1em;
+ }
+
+}
+
+
+@media (min-width: 768px) and (max-width: 991px) {
+	.page-id-24 .content, .page-id-18 .content, .page-id-302 .content {width: 668px;padding: 100px;}	
+	.banner-image {width: 100%;	height: 100px;}
+	.home .first {margin-left: 440px;margin-top:120px;}
+	.home .second {width: 600px;}
+	.home .third {width: 740px;	}
+	.home .third img {height: 350px;}
+	.home .fourth {width: 740px;}
+	.footer-1 .content {width: 240px;}
+	.footer-1 .content div {width: 100%;text-align:center;padding: 0;}
+	.footer-1 .content div:nth-child(2) {margin-top: 1em;}
+	.page-id-24 .services-content, .page-id-18 .services-content, .page-id-302 .services-content {width: 55%;}		
+	.sidebar {display: none;}
+	.page-id-16 .content {width: 260px;margin: 20px auto;padding: 20px;}
+	.page-id-16 .staff-grid {width: 100%;}
+    .page-id-16 .staff-member {width: 90%;margin: 10px 0 0 0;padding: 5%;}
+	.page-id-16 .staff-member h2 {display: none;}
+	.page-id-16 .staff-member p:nth-child(2) {margin-top: 1em;font-weight: bold;font-size: 12px;}
+	.page-id-16 .staff-member h4 {font-size: 16px;margin-top: 1em;}
+	.page-id-16 .desktop {display: none;}
+	.page-id-22 .content {width: 500px;	padding-left: 100px;padding-right: 100px;}
+	.page-id-22 .content .patient-subcontent {width: 100%;}
+	 .home .first-2 {
+    background-color: rgba(217,214,209,.9);
+    left: 115px;
+    width: 320px;
+    padding: 0;
+    border-radius: 5px;
+ }
+ .home .first-2 img {
+    display: inline-block;
+    padding-top: 15px;
+ }
+ .home .first-2 h6 {
+    font-size: 16px;
+    font-weight: 700;
+    background-image: url('../images/Button.png');
+    height: 41px;
+    width: 226px;
+    padding: 20px 20px 20px 0;
+    display: inline-block;
+    text-align: center;
+    vertical-align: top;
+ }
+ .content-2 {
+    position: absolute;
+    width: 10px;
+    background-color: #fff;
+    margin: 0 auto;
+    padding: 50px;
+    margin-bottom: 1em;
+ }
+	
+	
+}
+
+@media (max-width: 768px) {
+    .home .first {margin: 0 auto 1em;left: 0;background-color: rgba(217,214,209,1);	}
+	.desktop {display: none;}
+	.mobile {display: block;}
+	.mobile.header-top div {width: 86%;margin: 0 7%;}
+	.mobile.header-top div img:nth-child(1) {width: 150px;}
+	.mobile.header-bottom nav {width: 100%;}
+	.banner-image {width: 100%;height: 250px;}
+	.banner-image div {background-position: center center;}
+	.layer-1-background {display: none;}
+	.content {width: 240px;}
+	.content-wrapper {margin-top: -40px;}
+	.home .second {width: 280px;padding: 20px;}
+	.home .second h1 {font-size: 26px;}	
+	.home .third {width: 320px;flex-direction: column;}
+	.home .third div, .home .third img {width: 100%;padding: 0;}
+    .home .third img {order: 1;height: 200px;}
+	.home .third div {padding-top: 1em;padding-bottom: 1em;order: 2;}
+	.home .fourth {width: 320px;height: auto;text-align: center;}
+	.home .fourth #google-maps {height: 175px;}
+	.home .fourth div:nth-child(2), .home .fourth #google-maps {width: 100%;padding: 0;	}
+    .home .fourth div:nth-child(2) {width: 80%;margin: 0 auto;padding: 1.5em 0;}
+	.second {width: 70%;padding: 10%;}
+	.page-id-16 .content {width: 260px;margin: 50px auto;padding: 20px;}
+	.page-id-16 .staff-grid {width: 100%;}
+	.page-id-16 .staff-member {width: 90%;margin: 10px 0 0 0;padding: 5%;}
+	.page-id-16 .staff-member h2 {display: none;}
+	.page-id-16 .staff-member p:nth-child(2) {margin-top: 0;font-size: 15px;}
+	.page-id-16 .staff-member p:nth-child(3) {font-size: 15px;}
+	.page-id-16 .staff-member h5 {margin-top: 0.3em;}
+	.page-id-16 .staff-member h4 {font-size: 16px;margin-top: 1em;	}
+	
+
+	/**
+
+	* SERVICES
+
+	**/
+	.page-id-24 .services-content, .page-id-18 .services-content, .page-id-302 .services-content {width: 100%;display: block;}
+	.page-id-24 .content, .page-id-18 .content, .page-id-302 .content {width: 240px;padding: 30px;margin-bottom: 50px;}
+	.page-id-14 {background-color: #082622;}
+	.page-id-14 section { width: 320px;  margin: 0 auto;}
+	.page-id-14 .top-wrapper {width: 280px;padding: 20px;}
+	.page-id-14 .top-wrapper .top-box {padding-top: 0;}
+	.page-id-14 .grid-div{width: 90%;padding: 5%;display: block;}
+	.page-id-14 #google-maps-contact {width: 90%;padding: 0%;height: 120px;margin: 0 auto;display: block;}
+	.page-id-14 .contact-content {padding-top: 125px;height: 248px;width: 80%;padding: 5%;margin: 0 auto;}
+	.page-id-14 .framebox {background:none;height:auto;}
+	.page-id-22 .content {width: 240px;padding: 30px;}
+	.page-id-22 .content .patient-subcontent {float: none;width: 100%;}
+	.page-id-22 .appointment-text span:nth-child(2) {float: left;}	
+	 footer {margin-top: 0;}
+
+	.footer-1 .content {width: 240px;}
+	.footer-1 .content div {width: 100%;text-align:center;padding: 0;}
+	.footer-1 .content  img {display:inline-block;}
+	.footer-1 .content div h5 {padding-top: 0.75em;padding-bottom: 0.75em;}
+	.footer-1 .content div:nth-child(2) {margin-top: 1em;}
+}
+	
+@media (max-width:480px) {  
+	.content-2
+    {position: static;
+    width: 10px;
+    background-color: #fff;
+    margin: 0 auto;
+    padding: 50px;
+    margin-bottom: 1em;}
+}
+
