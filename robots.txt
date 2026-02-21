@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://jackdau.github.io/yourgp-denman-website/sitemap.xml
