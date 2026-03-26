@@ -1,0 +1,69 @@
+# YourGP@Denman
+
+> General practice medical clinic in Denman Prospect, Canberra. Part of the YourGP group with locations in Denman Prospect, Crace, and Lyneham. Vision: Genuine Care, Clinical Excellence.
+
+## Website Information
+
+- URL: https://yourgpdenman.com.au
+- Practice: YourGP@Denman
+- Phone: (02) 6109 0000
+- Fax: (02) 6109 0001
+- Booking System: HotDoc (online appointment booking)
+- HealthLink EDI: yourgpat
+
+## Locations
+
+### YourGP@Denman (Primary)
+- Address: Level 1, 1B Felstead Vista, Denman Prospect ACT 2611
+- Hours: Monday–Friday 8am–6pm
+
+### YourGP@Crace
+- Address: 1/5 Baratta Street, Crace ACT 2911
+- Hours: Monday–Friday 8am–6pm, Saturday 9am–1pm
+
+### YourGP@Lyneham
+- Address: 62 Brigalow Street, Lyneham ACT 2602 (next to Tilley's café)
+- Hours: Monday–Thursday 8am–6pm, Friday 8am–12pm
+
+## Pages
+
+### Home
+- Path: /
+- Description: Practice overview with vision statement, opening hours, Google Maps embed, and online appointment booking link via HotDoc. Three surgery locations listed.
+
+### Doctors
+- Path: /doctors
+- Description: Staff directory with 13+ doctor and staff profiles. Expandable cards with photos, qualifications, special interests, and work schedules. Interactive desktop and mobile layouts.
+
+### Services
+- Path: /services
+- Description: 16 medical services with expandable descriptions — Children's Health, Childhood Immunisations, Chronic Disease Management (cardiovascular, diabetes, osteoarthritis, kidney disease), Driver's Medicals, Men's Health, Women's Health, Mental Health, Minor Procedures (IUD insertion, skin cancer removal, vasectomy, tongue tie), Musculoskeletal care, Travel Vaccinations, Skin Checks, Workers Compensation, After Hours care. Allied Health includes Nursing and 4Cyte Pathology.
+
+### New Patient
+- Path: /patient
+- Description: New patient registration via HotDoc form. Billing structure with four consultation levels (B through E) for standard and pensioner rates. Saturday fees (higher, at YourGP@Crace). After-hours section with embedded JotForm and CALMS information.
+
+### FAQ
+- Path: /faq
+- Description: 16 FAQ items covering appointments, urgent bookings, billing (no bulk billing, consultation fees $117–$459 standard, $146–$488 Saturday), parking, languages, confidentiality, medical certificates, results, contacting doctors, repeat prescriptions, email, reminders, after-hours, accreditation (AGPAL), teaching practice, and complaints.
+
+### Contact
+- Path: /contact
+- Description: Contact details for all three locations. Online contact form, prescription and referral request links, phone and fax numbers, opening hours, after-hours care (CALMS 1300 422 567), HealthLink EDI, and Google Maps embed.
+
+### Careers
+- Path: /careers
+- Description: Recruitment for GPs (sole traders, no Level 1 overseas supervision), Nurses (varied roles, health coaching), and Admin staff (data entry, high-volume support). RACGP Award recognition. Microsoft Forms application link.
+
+### Privacy Policy
+- Path: /privacy-policy
+- Description: Full YourGP privacy policy. Reviewed February 2026. PDF version available.
+
+## Key Facts
+
+- Billing: Private billing (no bulk billing). Fees vary by consultation level and day.
+- After Hours: CALMS 1300 422 567, Healthdirect 1800 022 222
+- Saturday Clinic: Available at YourGP@Crace 9am–1pm
+- Accreditation: AGPAL accredited
+- Teaching Practice: Trains GP registrars
+- Patient Volume: 100,000+ annual patient visits across all locations
