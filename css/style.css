@@ -141,7 +141,7 @@ a { color: inherit; /* blue colors for links too */ text-decoration: inherit; /*
 .page-id-16 p {	margin-top: 0.2em;}
 .page-id-16 #staff-info p {	margin-top: 0.5em;}
 .page-id-16 section, .page-id-24 section, .page-id-302 section {background-color: white;padding: 100px;width: 1000px;	margin: 100px auto;}
-.page-id-16 #staff-info {width: 1000px;height: auto;margin: 50px auto 0;overflow: hidden; position: relative; -webkit-box-shadow: 7px 8px 5px 0px rgba(0,0,0,0.12);-moz-box-shadow: 7px 8px 5px 0px rgba(0,0,0,0.12);
+.page-id-16 #staff-info {width: 1000px;height: auto;margin: 50px auto 0;overflow: hidden; position: relative; z-index: 20; background-color: #fff; -webkit-box-shadow: 7px 8px 5px 0px rgba(0,0,0,0.12);-moz-box-shadow: 7px 8px 5px 0px rgba(0,0,0,0.12);
 	box-shadow: 7px 8px 5px 0px rgba(0,0,0,0.12);padding-bottom: 40px;}
 .page-id-16 #staff-info h4 {margin-top: 1em;}
 .page-id-16 #staff-info h2 {color: #5A867D;}
