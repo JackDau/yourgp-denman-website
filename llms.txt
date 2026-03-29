@@ -2,13 +2,13 @@
 
 > General practice in Denman Prospect, Canberra — Genuine Care, Clinical Excellence.
 
-YourGP@Denman is a 9-room general practice located in Denman Prospect, a suburb of Canberra in the Australian Capital Territory. Part of the YourGP network of independent practices (Crace, Denman Prospect, and Lyneham), it offers comprehensive general practice services including skin cancer checks, minor procedures, chronic disease management, and preventive care. The practice is AGPAL accredited and is a teaching practice affiliated with the Australian National University.
+YourGP@Denman is a 9-room general practice located in a Distribution Priority Area (DPA) in Denman Prospect, a suburb of Canberra in the Australian Capital Territory. Part of the YourGP network of independent practices (Crace, Denman Prospect, and Lyneham), it offers comprehensive general practice services including skin cancer checks, minor procedures, chronic disease management, and preventive care. The practice is AGPAL accredited and is a teaching practice affiliated with the Australian National University. YourGP is actively recruiting GPs, nurses, and admin team members across all three clinics (33 consulting rooms, 30,000+ patients per year).
 
 ## Key Information
 
 - **Address**: Level 1, 1B Felstead Vista, Denman Prospect ACT 2611
 - **Phone**: (02) 6109 0000
-- **Hours**: Monday to Friday 8:00am–6:00pm
+- **Hours**: Monday to Friday 8:00am–5:00pm
 - **Booking**: Online via [HotDoc](https://www.hotdoc.com.au/medical-centres/fisher-ACT-2611/yourgp-denman/doctors) or by phone
 - **Billing**: Private billing. Medicare rebates processed on the day. Not bulk billed.
 - **New patients**: Welcome
@@ -45,8 +45,8 @@ YourGP@Denman is a 9-room general practice located in Denman Prospect, a suburb 
 - [Home](https://www.yourgpdenman.com.au/): Welcome, practice philosophy, opening hours, locations map
 - [Doctors](https://www.yourgpdenman.com.au/doctors/): GP profiles, qualifications, special interests, availability
 - [Services](https://www.yourgpdenman.com.au/services/): Full list of clinical services and allied health
-- [New Patient](https://www.yourgpdenman.com.au/patient/): New patient information, forms, after hours care
+- [New Patient](https://www.yourgpdenman.com.au/patient/): New patient information, forms, fees, after hours care
 - [FAQ](https://www.yourgpdenman.com.au/faq/): Billing, appointments, parking, results, privacy policy
 - [Contact](https://www.yourgpdenman.com.au/contact/): Contact form, feedback, directions
-- [Careers](https://www.yourgpdenman.com.au/careers/): Current job openings
+- [Careers](https://www.yourgpdenman.com.au/careers/): GP, nursing, and admin team recruitment
 - [Privacy Policy](https://www.yourgpdenman.com.au/privacy-policy/): Full privacy policy
