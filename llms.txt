@@ -32,21 +32,21 @@ YourGP@Denman is a 9-room general practice located in a Distribution Priority Ar
 
 ## Sister Practices
 
-- [YourGP@Crace](https://www.yourgpcrace.com.au) — 1/5 Baratta Street, Crace ACT 2911
-- [YourGP@Lyneham](https://www.yourgplyneham.com.au) — 62 Brigalow St, Lyneham ACT 2602
+- [YourGP@Crace](https://yourgpcrace.com.au) — 1/5 Baratta Street, Crace ACT 2911
+- [YourGP@Lyneham](https://yourgplyneham.com.au) — 62 Brigalow St, Lyneham ACT 2602
 
 ## Specialist Clinics
 
-- [Canberra Vasectomy](https://www.canberravasectomy.com.au) — Dr John Deery, no-scalpel vasectomy
-- [YourSkinCBR](https://www.yourskincbr.com.au) — Skin cancer specialist GPs at Crace and Denman
+- [Canberra Vasectomy](https://canberravasectomy.com.au) — Dr John Deery, no-scalpel vasectomy
+- [YourSkinCBR](https://yourskincbr.com.au) — Skin cancer specialist GPs at Crace and Denman
 
 ## Pages
 
-- [Home](https://www.yourgpdenman.com.au/): Welcome, practice philosophy, opening hours, locations map
-- [Doctors](https://www.yourgpdenman.com.au/doctors/): GP profiles, qualifications, special interests, availability
-- [Services](https://www.yourgpdenman.com.au/services/): Full list of clinical services and allied health
-- [New Patient](https://www.yourgpdenman.com.au/patient/): New patient information, forms, fees, after hours care
-- [FAQ](https://www.yourgpdenman.com.au/faq/): Billing, appointments, parking, results, privacy policy
-- [Contact](https://www.yourgpdenman.com.au/contact/): Contact form, feedback, directions
-- [Careers](https://www.yourgpdenman.com.au/careers/): GP, nursing, and admin team recruitment
-- [Privacy Policy](https://www.yourgpdenman.com.au/privacy-policy/): Full privacy policy
+- [Home](https://yourgpdenman.com.au/): Welcome, practice philosophy, opening hours, locations map
+- [Doctors](https://yourgpdenman.com.au/doctors/): GP profiles, qualifications, special interests, availability
+- [Services](https://yourgpdenman.com.au/services/): Full list of clinical services and allied health
+- [New Patient](https://yourgpdenman.com.au/patient/): New patient information, forms, fees, after hours care
+- [FAQ](https://yourgpdenman.com.au/faq/): Billing, appointments, parking, results, privacy policy
+- [Contact](https://yourgpdenman.com.au/contact/): Contact form, feedback, directions
+- [Careers](https://yourgpdenman.com.au/careers/): GP, nursing, and admin team recruitment
+- [Privacy Policy](https://yourgpdenman.com.au/privacy-policy/): Full privacy policy
