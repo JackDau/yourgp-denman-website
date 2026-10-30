@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="../css/style.css" type="text/css" media="screen" />
+    <link rel="stylesheet" href="../css/style.css?v=20261030c" type="text/css" media="screen" />
     <title>Doctors - YourGP@Denman</title>
     <meta name="description" content="Meet our doctors at YourGP@Denman. Experienced GPs providing comprehensive primary care in Denman Prospect, Canberra.">
     <link rel="canonical" href="https://yourgpdenman.com.au/doctors/">
@@ -368,8 +368,20 @@ $250 for a full skin check, Medicare rebate $87.10.</p>
                 </div>
                 <div class="clearfix"></div>
             </div>
+            <div class="doctor-filters" role="group" aria-label="Filter doctors by service">
+            	<button type="button" data-filter="all" aria-pressed="true">All</button>
+            	<button type="button" data-filter="new-patients" aria-pressed="false">New patients</button>
+            	<button type="button" data-filter="skin" aria-pressed="false">Skin</button>
+            	<button type="button" data-filter="travel" aria-pressed="false">Travel</button>
+            	<button type="button" data-filter="yellow-fever" aria-pressed="false">Yellow fever</button>
+            	<button type="button" data-filter="iud-insertion" aria-pressed="false">IUD insertion</button>
+            	<button type="button" data-filter="iud-removal" aria-pressed="false">IUD removal</button>
+            	<button type="button" data-filter="implanon" aria-pressed="false">Implanon</button>
+            	<p class="doctor-filters-count" aria-live="polite"></p>
+            	<p class="doctor-filters-note" role="note" hidden><strong>NOTE:</strong> Some doctors take new patients for specific services only. See Skin, or their profile.</p>
+            </div>
             <div class="staff-grid">
-<div class="staff-member" data-type="17">
+<div class="staff-member" data-type="17" data-services="">
 <div class="top-content">
 <img class="desktop" alt="Dr Kristin McMahon" src="../images/doctors/kristin-mcmahon.jpg"/>
 <p>Dr Kristin McMahon</p>
@@ -386,7 +398,7 @@ $250 for a full skin check, Medicare rebate $87.10.</p>
 <p><span>Telehealth (phone and video) - </span> Tuesday, Thursday</p>
 </div>
 </div>
-                <div class="staff-member" data-type="1">
+                <div class="staff-member" data-type="1" data-services="travel implanon">
                     <div class="top-content"> <img class="desktop" src="../images/doctors/elizabeth.png" />
                         <p>Dr Elizabeth Muller</p>
                         <span class="card-status status-limited">limited — see profile</span>
@@ -405,7 +417,7 @@ $250 for a full skin check, Medicare rebate $87.10.</p>
                         </p>
                     </div>
                 </div>
-                <div class="staff-member" data-type="2">
+                <div class="staff-member" data-type="2" data-services="">
                     <div class="top-content"> <img class="desktop" src="../images/doctors/michelle-de-jesus.jpg" />
                         <p>Dr Michelle de Jesus</p>
                         <span class="card-status status-not-accepting">Currently unavailable</span>
@@ -422,7 +434,7 @@ $250 for a full skin check, Medicare rebate $87.10.</p>
                         </p>
                     </div>
                 </div>
-                <div class="staff-member" data-type="3">
+                <div class="staff-member" data-type="3" data-services="new-patients travel">
                     <div class="top-content"> <img class="desktop" src="../images/doctors/adam.jpg" />
                         <p>Dr Adam Wiley</p>
                         <span class="card-status status-welcome">new patients welcome</span>
@@ -440,7 +452,7 @@ $250 for a full skin check, Medicare rebate $87.10.</p>
                         </p>
                     </div>
                 </div>
-                <div class="staff-member" data-type="4">
+                <div class="staff-member" data-type="4" data-services="new-patients travel">
                     <div class="top-content"> <img class="desktop" src="../images/doctors/elliott-missen.jpg" />
                         <p>Dr Elliott Missen</p>
                         <span class="card-status status-welcome">new patients welcome</span>
@@ -458,7 +470,7 @@ $250 for a full skin check, Medicare rebate $87.10.</p>
                         </p>
                     </div>
                 </div>
-                <div class="staff-member" data-type="5">
+                <div class="staff-member" data-type="5" data-services="">
                     <div class="top-content"> <img class="desktop" src="../images/doctors/tracy-fox.jpg" />
                         <p>Dr Tracy Fox</p>
                         <span class="card-status status-limited">limited — see profile</span>
@@ -478,7 +490,7 @@ $250 for a full skin check, Medicare rebate $87.10.</p>
                         </p>
                     </div>
                 </div>
-                <div class="staff-member" data-type="8">
+                <div class="staff-member" data-type="8" data-services="skin">
                     <div class="top-content"> <img class="desktop" src="../images/doctors/chi-so.jpg" />
                         <p>Dr Chi So - Skin</p>
                         <span class="card-status status-limited">limited — see profile</span>
@@ -499,7 +511,7 @@ $250 for a full skin check, Medicare rebate $87.10.</p>
                         </p>
                     </div>
                 </div>
-                <div class="staff-member" data-type="9">
+                <div class="staff-member" data-type="9" data-services="travel iud-removal">
                     <div class="top-content"> <img class="desktop" src="../images/doctors/kathleen.jpg" />
                         <p>Dr Kathleen O'Brien</p>
                         <span class="card-status status-limited">limited — see profile</span>
@@ -519,7 +531,7 @@ $250 for a full skin check, Medicare rebate $87.10.</p>
                         </p>
                     </div>
                 </div>
-                <div class="staff-member" data-type="10">
+                <div class="staff-member" data-type="10" data-services="new-patients iud-insertion iud-removal implanon">
                     <div class="top-content"> <img class="desktop" src="../images/doctors/somyata-2.jpg" />
                         <p>Dr Somyata Jhorar</p>
                         <span class="card-status status-welcome">new patients welcome</span>
@@ -538,7 +550,7 @@ $250 for a full skin check, Medicare rebate $87.10.</p>
                         </p>
                     </div>
                 </div>
-                <div class="staff-member" data-type="11">
+                <div class="staff-member" data-type="11" data-services="iud-removal">
                     <div class="top-content"> <img class="desktop" src="../images/doctors/james.jpg" />
                         <p>Dr James Manley</p>
                         <span class="card-status status-not-accepting">not accepting new patients</span>
@@ -557,7 +569,7 @@ $250 for a full skin check, Medicare rebate $87.10.</p>
                         </p>
                     </div>
                 </div>
-                <div class="staff-member" data-type="12">
+                <div class="staff-member" data-type="12" data-services="implanon">
                     <div class="top-content"> <img class="desktop" src="../images/doctors/somyata.jpg" />
                         <p>Dr Stephen Martin</p>
                         <span class="card-status status-not-accepting">not accepting new patients</span>
@@ -577,7 +589,7 @@ $250 for a full skin check, Medicare rebate $87.10.</p>
                         </p>
                     </div>
                 </div>
-                <div class="staff-member" data-type="14">
+                <div class="staff-member" data-type="14" data-services="implanon">
                     <div class="top-content"> <img class="desktop" src="../images/doctors/mel.jpg" />
                         <p>Dr Mel Deery</p>
                         <span class="card-status status-limited">limited — see profile</span>
@@ -599,7 +611,7 @@ $250 for a full skin check, Medicare rebate $87.10.</p>
                         </p>
                     </div>
                 </div>
-                <div class="staff-member" data-type="15">
+                <div class="staff-member" data-type="15" data-services="">
                     <div class="top-content"> <img class="desktop" src="../images/doctors/john-deery.jpg" />
                         <p>Dr John Deery - Vasectomy</p>
                         <span class="card-status status-limited">limited — see profile</span>
@@ -621,7 +633,7 @@ $250 for a full skin check, Medicare rebate $87.10.</p>
                         <p><span>Lyneham - </span> Wednesday</p>
                     </div>
                 </div>
-                <div class="staff-member" data-type="16">
+                <div class="staff-member" data-type="16" data-services="travel">
                     <div class="top-content"> <img class="desktop" src="../images/doctors/penny-gosling.jpg" />
                         <p>Dr Penny Hall</p>
                         <span class="card-status status-limited">limited — see profile</span>
@@ -739,5 +751,5 @@ $250 for a full skin check, Medicare rebate $87.10.</p>
                     <p>Copyright YourGP 2025 | <a href="../privacy-policy/">Privacy Policy</a></p>
                 </div>
             </footer>
-            <script src="../js/main.js"></script>
+            <script src="../js/main.js?v=20261030c"></script>
         </body>
