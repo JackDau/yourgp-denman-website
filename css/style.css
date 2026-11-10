@@ -966,3 +966,8 @@ footer p a:not([class]), footer li a:not([class]) {
 .doctor-filters-note strong {
 	color: #B3261E;
 }
+
+/* Doctors page: gap between an opened doctor profile and the filter buttons */
+.page #staff-info {
+	margin-bottom: 40px;
+}
